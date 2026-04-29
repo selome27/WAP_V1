@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Computer Science Student</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal website of Birhan Reda">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body>
+    <header class="bg-gray-500 text-white text-center space">
+        <h1 class="text-4xl font-bold m-2 p-20">Birhan Reda | Backend Developer</h1>
+        <img src="IMG_8285.jpg" alt="my profile picture" width="200" height="200" class="rounded-full mx-auto mb-4">
+        <p class="text-lg mb-2">Email: <a href="mailto:breda@miu.edu">breda@miu.edu</a></p>
+        <p class="text-lg mb-4">Job Title: Computer Science Student</p>
+
+
+    </header>
+    <nav aria-label="Social media links" class="fixed top-0 w-full bg-green-400 z-50 pt-8">
+        <ul class="flex justify-center gap-6 list-none pb-4">
+
+            <li class="text-white hover:text-blue-400">
+                <a href="#about">About</a>
+            </li>
+            <li class="text-white hover:text-blue-400">
+                <a href="#interests">Interests</a>
+            </li>
+            <li class="text-white hover:text-blue-400">
+                <a href="#technologies">Technology</a>
+            </li>
+            <li class="text-white hover:text-blue-400">
+                <a href="#experience">Work Experience</a>
+            </li>
+
+            <li class="text-white hover:text-blue-400">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="text-white hover:text-blue-400">
+                <a href="#contact">Contact me</a>
+            </li>
+            <li class="text-white hover:text-blue-400">
+                <a href="https://github.com/selome27">GitHub</a>
+            </li>
+
+
+        </ul>
+    </nav>
+    <main class="pt-4 text-s text-balck-400  space-y-2">
+        <section aria-labelledby="about">
+            <h2 id="about" class="font-bold"> About Me</h2>
+
+
+            <p>
+                My name is Birhan Reda, and I am a Computer Science student at Maharishi International
+                University in the United States, expected to graduate in june 2026.
+            </p>
+
+            <p>
+                I have hands-on experience in full-stack web development and recently completed a
+                Senior Project focused on building an e-commerce platform. This project was developed
+                using Java, Spring Boot, React, and PostgreSQL, and it allowed me to apply real-world
+                software engineering practices such as RESTful API design, authentication, database
+                modeling, and frontend-backend integration. Working on this project strengthened my
+                understanding of scalable application architecture and clean code principles.
+            </p>
+
+            <p>
+                I am particularly passionate about backend development and enjoy designing REST APIs,
+                implementing authentication and authorization mechanisms, and ensuring system
+                reliability and performance. I have experience working with Spring Security, JWT
+                authentication, and password encryption techniques such as BCrypt. I enjoy building
+                systems that are secure, maintainable, and easy to extend.
+            </p>
+
+            <p>
+                I am eager to grow professionally in the technology field and contribute to innovative
+                projects that solve real-world problems. I am motivated, detail-oriented, and
+                continuously learning new technologies to improve my skills. My long-term goal is to
+                work as a software engineer where I can build impactful applications and continue
+                evolving as a developer.
+            </p>
+        </section>
+        <section aria-labelledby="interests">
+            <h2 id="interests" class="font-bold">Interests</h2>
+
+            <ul>
+                <li>Backend Development</li>
+                <li>REST API DESIGN</li>
+                <li>Web applications</li>
+                <li>software Architecture</li>
+                <li>Learning New technologies</li>
+            </ul>
+        </section>
+        <section aria-labelledby="technologies">
+            <h2 id="technologies" class="font-bold">Technologies</h2>
+            <ul>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>REST APIs</li>
+                <li>OOP</li>
+            </ul>
+
+        </section>
+        <section aria-labelledby="experience">
+
+            <h2 id="experience" class="font-bold">Work Experience</h2>
+
+            <ul>
+
+                <li>Senior Project - E-Commerce Platform (Java, Spring Boot, React, PostgreSQL)</li>
+
+                <li>Full-Stack Web Development -RESTful API Design & JWT Authentication </li>
+
+                <li>Backend Development - Spring Security & BCrypt Password Encryption</li>
+
+                <li>Database Modeling - PostgreSQL schema design and integration</li>
+
+            </ul>
+
+        </section>
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading" class="font-bold">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <article>
+                    <h3>E-Commerce</h3>
+                    <p>Built with Java, Spring Boot, React, and PostgreSQL</p>
+                    <a href="https://github.com/selome27"
+                        class="inline-block mt-4 bg-green-400 text-white px-4 py-2 rounded font-bold hover:bg-gray-800">
+                        >View Projects</a>
+                </article>
+                <article>
+                    <h3>Rest-API</h3>
+                    <p>Built with Spring Boot, Spring Security and JWT authentication.</p>
+                    <a href="https://github.com/selome27 "
+                        class="inline-block mt-4 bg-green-400 text-white px-4 py-2 rounded font-bold hover:bg-gray-800">
+                        >View Projects</a>
+                </article>
+            </div>
+
+
+        </section>
+        <section aria-labelledby="contact">
+            <h2 id="contact" class="font-bold ">Contact Me</h2>
+            <form aria-label="Contact form" class="space-y-4">
+                <div class="space-y-2">
+                    <label for="name" class="text-black-800">Name</label>
+                    <input type="text" id="name" name="name" required aria-required="true" placeholder="Name"
+                        class="border-2 border-green-400 rounded placeholder-gray-400 px-2 text-center">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required aria-required="true" placeholder="Email"
+                        class="border-2 border-green-400 rounded placeholder-gray-400 px-2 text-center">
+
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+                </div>
+                <div>
+                    <button type="submit" aria-label="Submit Contact form"
+                        class="rounded font-bold border-2 border-green-400 p-2 bg-green-400 hover:bg-gray-800">
+                        Submit
+                    </button>
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer class="space-y-2 p-2">
+
+        <p class="font-bold pb-4">© 2026 Birhan Reda. All rights reserved.</p>
+        <a href="https://github.com/selome27"
+            class="font-bold border-2 rounded-full text-gray-800 p-2 bg-gray-500">GitHub</a>
+
+
+
+    </footer>
+</body>
+
+</html>

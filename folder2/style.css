@@ -14,9 +14,9 @@
 
 body {
 
-    font-family: Arial, san-serif;
+    font-family: Arial, sans-serif;
 
-    background-color: whiteesmoke;
+    background-color: whitesmoke;
 
     color: darkgray;
 
@@ -84,7 +84,7 @@ header {
 
     grid-template-columns: 1fr 1fr;
 
-    gap: 1.5 rem;
+    gap: 1.5rem;
 
     padding: 2rem;
 
