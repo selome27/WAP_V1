@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <form class="m-8 border-2 rounded-lg p-6 border-purple-500 w-96 space-y-4">
+
+        <div class="space-y-1">
+            <label class="font-bold text-purple-900">Required Field</label>
+            <input type="text" required placeholder="Required Field"
+                class="w-full border-2 border-purple-300 placeholder-gray-400 rounded px-2 py-1 focus:border-purple-500 outline-none" />
+        </div>
+
+
+        <div class="space-y-1">
+            <label class="font-bold text-purple-900">Disabled Field</label>
+            <input type="text" disabled placeholder="Disabled Field"
+                class="w-full border-2 border-purple-300 placeholder-gray-400 rounded px-2 py-1 bg-purple-50 disabled:cursor-not-allowed outline-none" />
+        </div>
+
+
+        <div class="space-y-1">
+            <label class="font-bold text-purple-900">Input Field</label>
+            <input type="text" placeholder="Input Field"
+                class="w-full border-2 border-purple-300 placeholder-gray-400 rounded px-2 py-1 focus:border-purple-500 outline-none" />
+        </div>
+
+
+        <div class="flex items-center gap-2">
+            <input type="checkbox" class="accent-purple-700" />
+            <span>I accept the terms and conditions.</span>
+        </div>
+
+
+        <div class="flex gap-2">
+            <button class="border-2 rounded px-4 py-1 bg-purple-600 text-white font-semibold">Submit</button>
+            <button class="border-2 rounded px-4 py-1 border-purple-500 text-purple-600 font-semibold">Reset</button>
+            <button disabled
+                class="border-2 rounded px-4 py-1 border-purple-300 text-purple-300 disabled:opacity-50 disabled:cursor-not-allowed">Disabled</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
